@@ -7,11 +7,8 @@
 ### 安装
 
 ```bash
-# 方式一：直接解压 .skill 文件到 Claude 技能目录
-unzip zhouyi-divination.skill -d ~/.claude/skills/
-
-# 方式二：手动复制
-cp -r zhouyi-divination ~/.claude/skills/
+git clone https://github.com/Sheaffer-triumph/ZhouyiDivination
+cp -r ZhouyiDivination/zhouyi-divination ~/.claude/skills/
 ```
 
 ### 依赖
